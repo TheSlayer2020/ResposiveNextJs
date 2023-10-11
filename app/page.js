@@ -8,7 +8,7 @@ export default function Home() {
         
         <div>
           <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="https://resposive-next-js.vercel.app/page"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -22,6 +22,7 @@ export default function Home() {
               priority
             />
           </a>
+          
         </div>
       </div>
 
@@ -35,9 +36,10 @@ export default function Home() {
           priority
         />
       </div>
+      
 
       <div className={styles.grid}>
-        <a
+      <a
           href="http://localhost:3000/page"
           className={styles.card}
           target="_blank"
@@ -46,46 +48,9 @@ export default function Home() {
           <h2>
             Click Me  <span>-&gt;</span>
           </h2>
-          <p> Redirect You To (http://localhost:3000/page).</p>
+          <p> Redirect You To (http://localhost:3000/page)</p>
         </a>
-
-        <a
-          href="http://localhost:3000/page"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Click ME <span>-&gt;</span>
-          </h2>
-          <p>Redirect You To (http://localhost:3000/page)</p>
-        </a>
-
-        <a
-          href="http://localhost:3000/page"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Click ME <span>-&gt;</span>
-          </h2>
-          <p>Redirect You To (http://localhost:3000/page)</p>
-        </a>
-
-        <a
-          href="http://localhost:3000/page"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Click ME <span>-&gt;</span>
-          </h2>
-          <p>
-          Redirect You To (http://localhost:3000/page)
-          </p>
-        </a>
+        
       </div>
     </main>
   )
